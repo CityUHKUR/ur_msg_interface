@@ -9,7 +9,7 @@ colcon build --packages-select ur_msg_interface --cmake-args -DCMAKE_BUILD_TYPE=
 source ./install/setup.bash
 ```
 
-if you would like to integrade with this repo, pls add ⬇ to your "CMakeLists.txt"
+If you would like to integrate this repo with your code, pls add ⬇ to your "CMakeLists.txt"
 ```
 find_package(ur_msg_interface REQUIRED)
 ament_target_dependencies( <your project name> rclcpp std_msgs geometry_msgs ur_msg_interface )
