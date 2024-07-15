@@ -9,7 +9,7 @@ std_msgs/Header header
 
 # the state of vehicle
 # false - disarmed, true - armed 
-bool  arm
+bool arm
 
 # the algorithm type of motion control, such as "NaiveDynamics", "CommonDynamics", "HydroDynamics"...
 string algorithm_type
