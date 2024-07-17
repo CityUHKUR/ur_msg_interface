@@ -1,0 +1,9 @@
+enum CONTROL_EVENT
+{
+    ARM,
+    DISARM,
+    MODE_MANUAL,
+    MODE_TEST,
+    MODE_VERTICAL,
+    MODE_STABILIZATION
+};
