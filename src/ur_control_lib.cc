@@ -52,3 +52,15 @@ URLIB::CORE_EVENT URLIB::UintToCoreEvent(uint8_t core_event_id)
      return static_cast<CORE_EVENT>(core_event_id);
 }
     
+std::string URLIB::ThrusterTypeToString(THRUSTER_TYPE thruster_type)
+{
+    std::string res="UNKNOW";
+    switch (thruster_type)
+    {
+        case M200P_1200V:res="M200P_1200V";break;
+        case M200N_1200V:res="M200N_1200V";break;
+        case T200P_1640V:res="T200P_1640V";break;
+        case T200N_1640V:res="T200N_1640V";break;
+    }
+    return res;
+}

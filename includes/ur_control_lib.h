@@ -30,6 +30,12 @@ namespace URLIB
         T200N_1640V, // T200 Negative @16.80V
     };
 
+    /**
+     * @brief Get the name of core mode
+     * @param thruster_type(THRUSTER_TYPE) input typr
+     * @return (std::string) name of thruster type
+     **/
+    std::string ThrusterTypeToString(THRUSTER_TYPE thruster_type);
 
     // An ENUM which contains the mode type of control system
     enum CORE_MODE
