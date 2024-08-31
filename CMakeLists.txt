@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/URControlState.msg"
   "msg/URHeartBeat.msg"
   "msg/URInertialSensor.msg"
+  "msg/URSharedImage.msg"
   DEPENDENCIES std_msgs geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 
