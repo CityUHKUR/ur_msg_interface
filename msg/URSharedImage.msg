@@ -16,7 +16,7 @@ std_msgs/Header header
 string name
 
 # key of shared memory
-int key
+int32 key
 
 # type of image 
 # 'BGR' 'RGB' 'YUV' ...
