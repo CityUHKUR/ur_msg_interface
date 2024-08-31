@@ -10,7 +10,7 @@ std_msgs/Header header
 # name of shared memory
 # shm_key = ftok(name.c_str(),0);
 # shm_id = shmget(shm_key,width*height*channel,SHM_W|SHM_R|IPC_CREAT|IPC_EXCL); 
-# or 
+# or
 # shm_id = shmget(shm_key,width*height*channel,SHM_W|SHM_R|IPC_EXCL); 
 # uint8_t * ptr = shmat (shm_id,0,0);
 string name
