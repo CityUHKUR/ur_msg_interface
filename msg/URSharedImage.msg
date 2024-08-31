@@ -15,6 +15,9 @@ std_msgs/Header header
 # uint8_t * ptr = shmat (shm_id,0,0);
 string name
 
+# key of shared memory
+int key
+
 # type of image 
 # 'BGR' 'RGB' 'YUV' ...
 string type
