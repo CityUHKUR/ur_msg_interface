@@ -32,6 +32,7 @@ std::string URLIB::CoreEventToString(URLIB::CORE_EVENT core_event)
             case SET_MODE_MANUAL:res="SET_MODE_MANUAL";break;
             case SET_MODE_STABILIZATION:res="SET_MODE_STABILIZATION";break;
             case SET_MODE_VERTICAL:res="SET_MODE_VERTICAL";break;
+            case SET_MODE_OPTICFLOW:res="SET_MODE_OPTICFLOW";break;
             case SET_MODE_POSITION:res="SET_MODE_POSITION";break;
             case SET_MODE_AUTOPILOT:res="SET_MODE_AUTOPILOT";break;
             case RESET:res="RESET";break;
