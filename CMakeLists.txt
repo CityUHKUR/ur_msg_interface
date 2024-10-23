@@ -11,7 +11,7 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-# custom msg
+# custom msg and survice
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/URActuator.msg"
   "msg/URControl.msg"
@@ -19,8 +19,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/URHeartBeat.msg"
   "msg/URInertialSensor.msg"
   "msg/URSharedImage.msg"
+  "srv/FileSaver.srv"
+  "srv/FileLoader.srv"
   DEPENDENCIES std_msgs geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
+
 
 # uncomment the following section in order to fill in
 # further dependencies manually.
