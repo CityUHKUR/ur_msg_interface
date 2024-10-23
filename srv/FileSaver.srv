@@ -5,7 +5,7 @@
 # Date: 2024-10-23
 # Description: Survice of saving text file
 
-# name of the file (must include format, like ".txt", "yaml")
+# name of the file (must include format, like ".txt", "yaml") 
 string file_name
 
 # save path
